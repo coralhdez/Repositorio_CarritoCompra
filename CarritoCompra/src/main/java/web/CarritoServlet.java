@@ -39,7 +39,7 @@ public class CarritoServlet extends HttpServlet {
 
         out.print("<h1>Lista de la compra: </h1>");
         for (String articulo : articulos) {
-            out.print("<li>" + articulos + "</li>");
+            out.print("<li>" + articulo + "</li>");
         }
         out.print("<br/>");
         out.print("<a href='/CarritoCompra'>Inicio<a/>");
